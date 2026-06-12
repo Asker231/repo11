@@ -1,0 +1,206 @@
+{
+  "content": [
+    {
+      "taskNumber": "196",
+      "operation": "terminate",
+      "productCode": "DEPOSIT_CORPORATE",
+      "status": "CREATED",
+      "productNumber": "LTCV000001",
+      "customerNumber": "001020",
+      "createUserLogin": "ostvrp",
+      "authorizeUserLogin": "",
+      "createdAt": "2026-01-23T14:59:01.021852",
+      "updatedAt": "2026-02-03T10:15:00.000000",
+      "payload": {
+        "dealNumber":"2222",
+        "contractNumber": "LCA-20260123-0001",
+        "currency": "RUB",
+        "depositAmount": 0,
+        "sourceAmount": 40000,
+        "lclgNumber": "1234567890"
+      }
+    },
+    {
+      "taskNumber": "197",
+      "operation": "terminate",
+      "productCode": "COVERAGE_RETAIL",
+      "status": "CREATED",
+      "productNumber": "LTCV000001",
+      "customerNumber": "001020",
+      "createUserLogin": "ostvrp",
+      "authorizeUserLogin": "",
+      "createdAt": "2026-01-23T14:59:01.021852",
+      "updatedAt": "2026-02-03T10:15:00.000000",
+      "payload": {
+        "dealNumber": "2222",
+        "contractNumber": "LCA-20260123-0001",
+        "currency": "RUB",
+        "depositAmount": 0,
+        "sourceAmount": 40000,
+        "lclgNumber": "1234567890"
+      }
+    },
+    {
+      "taskNumber": "TASK-2023-0001",
+      "operation": "create",
+      "productCode": "DEPOSIT_RETAIL",
+      "status": "PREAUTHORIZED",
+      "productNumber": "DP00123456",
+      "customerNumber": "CUST12345678901234567890123456789",
+      "createUserLogin": "john.doe",
+      "authorizeUserLogin": "jane.smith",
+      "createdAt": "2025-03-28T09:10:00.000000",
+      "updatedAt": "2025-03-30T09:10:00.000000",
+      "payload": {
+        "contractNumber": "CNTR20240328001",
+        "currency": "USD",
+        "depositAmount": 15000.75,
+        "sourceAmount": 0,
+        "lclgNumber": ""
+      }
+    },
+    {
+      "taskNumber": "100095",
+      "operation": "create",
+      "productCode": "DEPOSIT_RETAIL",
+      "status": "CREATED",
+      "productNumber": "DP00987654",
+      "customerNumber": "CUST98765432109876543210987654321",
+      "createUserLogin": "alice.wonder",
+      "authorizeUserLogin": "",
+      "createdAt": "2025-03-28T10:00:00.000000",
+      "updatedAt": "2025-03-30T10:00:00.000000",
+      "payload": {
+        "contractNumber": "CNTR20240328002",
+        "currency": "EUR",
+        "depositAmount": 25000,
+        "sourceAmount": 0,
+        "lclgNumber": ""
+      }
+    },
+    {
+      "taskNumber": "100094",
+      "operation": "create",
+      "productCode": "DEPOSIT_RETAIL",
+      "status": "CREATED",
+      "productNumber": "DP00543210",
+      "customerNumber": "CUST55555555555555555555555555555",
+      "createUserLogin": "charlie.brown",
+      "authorizeUserLogin": "",
+      "createdAt": "2025-03-28T11:00:00.000000",
+      "updatedAt": "2025-03-30T11:00:00.000000",
+      "payload": {
+        "contractNumber": "CNTR20240328003",
+        "currency": "GBP",
+        "depositAmount": 100000.12345,
+        "sourceAmount": 0,
+        "lclgNumber": ""
+      }
+    },
+    {
+      "taskNumber": "100096",
+      "operation": "withdrawal",
+      "productCode": "DEPOSIT_RETAIL",
+      "status": "CREATED",
+      "productNumber": "DP00000001",
+      "customerNumber": "CUST000001",
+      "createUserLogin": "mock_user",
+      "authorizeUserLogin": "",
+      "createdAt": "2026-02-03T08:30:00.000000",
+      "updatedAt": "2026-02-03T08:30:00.000000",
+      "payload": {
+        "dealNumber": "DDR-20240920-268",
+        "contractNumber": "CNTR20250101001",
+        "currency": "RUB",
+        "depositAmount": 0,
+        "sourceAmount": 5000,
+        "lclgNumber": ""
+      }
+    },
+    {
+      "taskNumber": "100097",
+      "operation": "replenishment",
+      "productCode": "DEPOSIT_RETAIL",
+      "status": "AUTHORIZED",
+      "productNumber": "DP00000002",
+      "customerNumber": "CUST000002",
+      "createUserLogin": "mock_user",
+      "authorizeUserLogin": "authorizer_1",
+      "createdAt": "2026-02-03T08:40:00.000000",
+      "updatedAt": "2026-02-03T08:55:00.000000",
+      "payload": {
+        "dealNumber": "DDR-20240920-269",
+        "contractNumber": "CNTR20250101002",
+        "currency": "RUB",
+        "depositAmount": 0,
+        "sourceAmount": 10000,
+        "lclgNumber": ""
+      }
+    },
+    {
+      "taskNumber": "100098",
+      "operation": "terminate",
+      "productCode": "COVERAGE_CORPORATE",
+      "status": "CREATED",
+      "productNumber": "LGCV000001",
+      "customerNumber": "CUST10",
+      "createUserLogin": "User1",
+      "authorizeUserLogin": "",
+      "createdAt": "2026-02-03T09:00:00.000000",
+      "updatedAt": "2026-02-03T09:00:00.000000",
+      "payload": {
+        "dealNumber": "DDR-20240920-270",
+        "contractNumber": "LCA-20260203-0002",
+        "currency": "USD",
+        "depositAmount": 0,
+        "sourceAmount": 700000,
+        "lclgNumber": "12345678910121212121"
+      }
+    },
+    {
+      "taskNumber": "100099",
+      "operation": "rateUpdate",
+      "productCode": "DEPOSIT_CORPORATE",
+      "status": "CREATED",
+      "productNumber": "DEDN000001",
+      "customerNumber": "CUST000003",
+      "createUserLogin": "mock_user",
+      "authorizeUserLogin": "",
+      "createdAt": "2026-02-03T09:10:00.000000",
+      "updatedAt": "2026-02-03T09:10:00.000000",
+      "payload": {
+        "dealNumber": "DDR-20240920-271",
+        "contractNumber": "CNTR20260203001",
+        "currency": "RUB",
+        "depositAmount": 0,
+        "sourceAmount": 0,
+        "lclgNumber": ""
+      }
+    },
+    {
+      "taskNumber": "100100",
+      "operation": "term_update",
+      "productCode": "DEPOSIT_RETAIL",
+      "status": "PREAUTHORIZED",
+      "productNumber": "DEDN000002",
+      "customerNumber": "CUST000004",
+      "createUserLogin": "mock_user",
+      "authorizeUserLogin": "authorizer_2",
+      "createdAt": "2026-02-03T09:20:00.000000",
+      "updatedAt": "2026-02-03T09:25:00.000000",
+      "payload": {
+        "dealNumber": "DDR-20240920-272",
+        "contractNumber": "CNTR20260203002",
+        "currency": "RUB",
+        "depositAmount": 0,
+        "sourceAmount": 0,
+        "lclgNumber": ""
+      }
+    }
+  ],
+  "page": 0,
+  "totalPages": 5,
+  "size": 10,
+  "numberOfElements": 10,
+  "totalElements": 42
+}

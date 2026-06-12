@@ -21,7 +21,7 @@ func NewTaskHandler(app *http.ServeMux) *Tasks{
 
 func(t *Tasks)getTasks() http.HandlerFunc{
 	var currency Wrapper
-	file,err := os.Open("internal/tasks/task.json")
+	file,err := os.Open("internal/tasks/tasks.json")
 	if err != nil{
 		fmt.Println(err.Error())
 	}

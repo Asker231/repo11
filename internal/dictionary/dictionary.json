@@ -1,0 +1,202 @@
+{
+  "productNumber": {
+    "COVERAGE_CORPORATE": {
+      "LCDP": "Покрытие по аккредитиву",
+      "LGDP": "Покрытие по банковской гарантии"
+    },
+    "COVERAGE_RETAIL": {
+      "LTCV000001": "Покрытие"
+    },
+    "DEPOSIT_CORPORATE": {
+      "DEDN000001": "Срочный депозит",
+      "DEDN000002": "Срочный депозит",
+      "DEDN000003": "Срочный депозит",
+      "DEDN000004": "Срочный депозит"
+    },
+    "DEPOSIT_RETAIL": {
+      "DEDI000034": "Тест Депозит 1",
+      "DEDI000035": "Тест Депозит 2",
+      "TDSC000001": "Социальный депозит"
+    }
+  },
+  "currency": {
+    "RUR": "RUR",
+    "USD": "USD",
+    "EUR": "EUR",
+    "JPY": "JPY"
+  },
+  "calculationMethod": {
+    "6": "Actual/Actual"
+  },
+  "capitalizationType": {
+    "MONTHLY": "Ежемесячно",
+    "QUARTERLY": "Ежеквартально",
+    "MATURITY": "В конце срока"
+  },
+  "filialCode": {
+    "201": "АО Райффайзенбанк (201)",
+    "203": "Филиал Северная столица АО Райффайзенбанк (203)",
+    "204": "Уральский филиал АО Райффайзенбанк (204)",
+    "207": "Сибирский филиал АО Райффайзенбанк (207)",
+    "223": "Поволжский филиал АО Райффайзенбанк (223)",
+    "226": "Южный филиал АО Райффайзенбанк (226)"
+  },
+  "taskStatus": {
+    "CREATED": "Ожидает авторизации",
+    "AUTHORIZED": "Авторизована",
+    "DELETED": "Удалена",
+    "PERFORMED": "Исполнена",
+    "FAILED": "Ошибка",
+    "DECLINED": "Отклонена",
+    "PREAUTHORIZED": "Ожидает вторую авторизацию"
+  },
+  "operation": {
+    "create": "Создание сделки",
+    "withdrawal": "Уменьшение суммы сделки",
+    "replenishment": "Увеличение суммы сделки",
+    "delete": "Отмена создания сделки",
+    "term_update": "Изменение плановой даты закрытия",
+    "rate_update": "Изменение ставки будущей датой",
+    "terminate": {
+      "coverage": "Закрытие покрытия",
+      "deposit": "Закрытие депозита"
+    }
+  },
+  "accountCodes": {
+    "corpAccountCodes": "3653,3753,3771,3792,3793,3794,3798,3799,3821,3822,3823,3824,3827,3836,3843,3844,3858,3859",
+    "retailAccountCodes": "3825,3755"
+  },
+  "taskAction": {
+    "CREATED": "Создание заявки",
+    "AUTHORIZED": "Авторизация заявки",
+    "DELETED": "Удаление заявки",
+    "PERFORMED": "Сделка открыта",
+    "FAILED": "Ошибка",
+    "EDITED": "Изменение заявки",
+    "DECLINED": "Отклонение заявки",
+    "PREAUTHORIZED": "Первичная авторизация заявки"
+  },
+  "operationAvailable": {
+    "delete": "CREATED, FAILED, DECLINED",
+    "update": "CREATED, FAILED, DECLINED",
+    "authorize": "CREATED, PREAUTHORIZED",
+    "decline": "CREATED, PREAUTHORIZED",
+    "preAuthorize": "CREATED"
+  },
+  "eventOperationType": {
+    "amountChange": "Изменение суммы",
+    "delete": "Отмена создания сделки",
+    "termUpdate": "Изменение плановой даты закрытия",
+    "rateUpdate": "Изменение ставки будущей датой",
+    "terminate": {
+      "coverage": "Закрытие покрытия",
+      "deposit": "Закрытие депозита"
+    }
+  },
+  "dealStatus": {
+    "OPEN": "Открыта",
+    "DELETE": "Удалена",
+    "CLOSE": "Закрыта в срок",
+    "TERMINATE": {
+      "COVERAGE": "Закрыто",
+      "DEPOSIT": "Досрочно закрыта"
+    },
+    "ERROR": "Ошибка",
+    "CANCEL": "Отменена",
+    "WAITING_TO_OPEN": "Ожидает открытия"
+  },
+  "midasType": [
+    {
+      "productNumber": "LCDP",
+      "midasDealType": "TD",
+      "midasDealSubType": "EY"
+    },
+    {
+      "productNumber": "LCDP",
+      "midasDealType": "TD",
+      "midasDealSubType": "YE"
+    },
+    {
+      "productNumber": "LGDP",
+      "midasDealType": "TD",
+      "midasDealSubType": "ED"
+    },
+    {
+      "productNumber": "LGDP",
+      "midasDealType": "IT",
+      "midasDealSubType": "ED"
+    },
+    {
+      "productNumber": "GSDP",
+      "midasDealType": "TD",
+      "midasDealSubType": "EG"
+    },
+    {
+      "productNumber": "LCDP",
+      "midasDealType": "IT",
+      "midasDealSubType": "LC"
+    },
+    {
+      "productNumber": "LCDP",
+      "midasDealType": "IT",
+      "midasDealSubType": "MY"
+    },
+    {
+      "productNumber": "CSDP",
+      "midasDealType": "TD",
+      "midasDealSubType": "EF"
+    }
+  ],
+  "coverageTransitAccount": {
+    "corporate": "-",
+    "retail": "сюда вписать счет в банке"
+  },
+  "processName": {
+    "create": "Сделка создана",
+    "close": "Сделка закрыта в срок",
+    "terminate": "Сделка закрыта досрочно",
+    "full_payment_execution": "Выплата на счет бенефициара (продавца)",
+    "delete": "Сделка отменена",
+    "capitalization": "Проценты выплачены",
+    "accrual_interest": "Проценты начислены",
+    "replenishment": "Изменение параметров сделки (сумма)",
+    "withdrawal": "Изменение параметров сделки (сумма)",
+    "term_update": "Изменение параметров сделки (срок)",
+    "rate_update": "Изменение параметров сделки (ставка)"
+  },
+  "movementType": {
+    "WITHDRAWAL": "Уменьшение суммы депозита/покрытия",
+    "REPLENISHMENT": "Увеличение суммы депозита/покрытия",
+    "ACCRUAL_INTEREST": "Начисление процентов",
+    "REFUND_PRINCIPAL_AMOUNT": "Возврат тела депозита/покрытия",
+    "REFUND_INTEREST_AMOUNT": "Возврат начисленных процентов",
+    "STORNO_DEPOSIT_ACCOUNT": "Сторнирование средств с депозитного счёта",
+    "STORNO_ACCRUAL_ACCOUNT": "Сторнирование средств с аккрульного счёта",
+    "FULL_PAYMENT_EXECUTION": "Исполнение аккредитива со счета покрытия",
+    "TAX_PAYMENT": "Удержание налога",
+    "REPLENISHMENT_OPENING_DAY": "Пополнение в день открытия сделки",
+    "CAPITALIZATION": "Капитализация",
+    "INTEREST_PAYMENT": " Выплата процентов"
+  },
+  "systemName": {
+    "CSP": "CSP",
+    "DGP": "dgp",
+    "DPO": "DPO,dpo",
+    "DEPMS": "depms",
+    "LCA": "LCA",
+    "CSP UI": "CSP_UI,csp_ui"
+  },
+  "base_rate_list": {
+    "RUB": [
+      {
+        "baseRateGroupCode": "CALL_DEPO_FUNDING",
+        "baseRateCode": "CALL_DEPO_FUNDING_RUB"
+      },
+      {
+        "baseRateGroupCode": "CBR_KEY_RATES",
+        "baseRateCode": "KEY_RATE"
+      }
+    ]
+  },
+  "depositReleaseVersion": "1.2.0"
+}
