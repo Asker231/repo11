@@ -9,8 +9,8 @@ import (
 
 func main() {
    app := http.NewServeMux()
-
-   _ = tasks.NewTaskHandler(app)
+   
+    _ = tasks.NewTaskHandler(app)
     _ = dict.NewDictionary(app)
    server := http.Server{
 	Addr: ":8080",

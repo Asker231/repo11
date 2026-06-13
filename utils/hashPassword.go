@@ -10,6 +10,10 @@ func GeneratePassword(pass []byte)(string, error){
 	return string(hashCode), nil 
 }
 
-func ComparePassword(hashed []byte,password []byte)error{
-	return bcrypt.CompareHashAndPassword(hashed,password)
+func ComparePassword(hashed []byte,password []byte)(bool,error){
+	err := bcrypt.CompareHashAndPassword(hashed,password)
+	if err != nil{
+		return  false,err
+	}
+	return  true,nil
 }
