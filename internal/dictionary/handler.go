@@ -3,6 +3,7 @@ package dictionary
 import (
 	"encoding/json"
 	"fmt"
+	"go-demo1/utils"
 	"net/http"
 	"os"
 )
@@ -24,17 +25,13 @@ func NewDictionary(app *http.ServeMux)*Dictionary{
 
 
 func(d *Dictionary)getDictionary() http.HandlerFunc{
-	var dictionaryes Config
 	file,err := os.Open("internal/dictionary/dictionary.json")
 	if err != nil{
 		fmt.Println(err.Error())
 	}
 	defer file.Close()
 
-	err = json.NewDecoder(file).Decode(&dictionaryes)
-	if err != nil{
-		fmt.Println(err.Error())
-	}
+	dictionaryes := utils.ReadFile[*Config](file)
 	return  func(w http.ResponseWriter, r *http.Request) {
         w.Header().Set("Content-Type", "application/json")
 		err := json.NewEncoder(w).Encode(dictionaryes)
